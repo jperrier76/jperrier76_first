@@ -1,0 +1,201 @@
+@font-face
+{
+    font-family: 'acmeregular';
+    src: url('acme/Acme-Regular-webfont.eot');
+    src: url('acme/Acme-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('acme/Acme-Regular-webfont.woff2') format('woff2'),
+         url('acme/Acme-Regular-webfont.woff') format('woff'),
+         url('acme/Acme-Regular-webfont.ttf') format('truetype'),
+         url('acme/Acme-Regular-webfont.svg#acmeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Allura';
+    src: url(allura/Allura-Regular.otf);
+}
+
+body
+{
+	color:black;
+	/* background-color:rgb(175, 220, 255, .4); */
+	background-image: url(papier.jpg);
+	background-attachment: fixed;
+	margin-left: 20px;
+	min-width: 850px
+}
+
+@media all and (max-width: 1024px) /* @media screen and (max-width: 1024px) */
+{
+    body
+    {
+    	width: auto;
+    	min-width: 380px
+    }
+
+	h2
+	{
+		margin-left: 90px;
+		font-size: 1.1em
+	}
+
+	.info , .info2
+	{
+		font-size: 0.8em
+	}
+
+	section
+	{
+		position: absolute;
+		top: 230px;
+		margin-right: 15px
+	}
+}
+
+header
+{
+	text-align: center;
+}
+
+.nom
+{
+	font-size: 2.2em;
+}
+
+.recherche
+{
+	position: relative;
+	top: 30px;
+	font-size: 1.2em;
+	text-shadow: 8px 8px 12px grey;
+}
+
+.info
+{
+	position: absolute;
+	top:205px;
+	left: 20px;
+}
+
+.info2
+{
+	position: absolute;
+	top: 225px;
+	left: 20px;
+}
+
+section
+	{
+		margin-right: 15px
+	}
+
+.annee
+{
+	font-size: 1.3em;
+	color: grey;
+	border: 6px rgb(200, 200, 200) double;
+	box-shadow: 6px 6px 6px grey inset;
+}
+
+h1
+{
+	color: brown;
+	font-size: 1.8em;
+	background-color: rgba(200, 200, 200, 0.3);
+	border: 1px grey solid;
+	border-radius: 10px / 20px;
+	box-shadow: 6px 6px 6px rgb(120, 120, 120);
+	padding-left: 10px /* padding est une marge interieure */
+	/*opacity: 0.5;*/
+}
+
+h3
+{
+	color: brown;
+	font-size: 1.8em;
+	background-color: rgba(200, 200, 200, 0.3);
+	border: 1px grey solid;
+	border-radius: 10px / 20px;
+	box-shadow: 6px 6px 6px rgb(120, 120, 120);
+	padding-left: 10px /* padding est une marge interieure */
+	/*opacity: 0.5;*/
+}
+
+h4
+{
+	text-align: center;
+}
+
+ul
+{
+	color: brown;
+	/* list-style-type: none; */ /* pour changer la forme des puces ou les supprimer, list-style-image pour choisir soi meme */
+}
+
+.poste /* le point pour dire la class "poste" */
+{
+	color: brown;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-right: 50px; /* margin est une marge exterieure */
+	text-align: right;
+}
+
+.societe
+{
+	font-size: 1.2em;
+	font-family: acmeregular, sans-serif;
+	font-style: italic;
+}
+
+.puce
+{
+	color: black;
+	font-size: 1em;
+}
+ 
+.date
+{
+	display: inline-block;
+	min-width: 80px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.retrait
+{
+	display: block;
+	font-style: italic;
+}
+
+/* .retrait
+{
+	position: absolute;
+	left: 150px;
+	min-width: 850px;
+} */
+
+.comp
+{
+	display: inline-block;
+	min-width: 238px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.retrait2
+{
+	display: block;
+	font-style: italic;
+}
+
+.flottant
+{
+	position: absolute;
+	left: 20px;
+	top: 95px;
+	float: left;
+	box-shadow: 6px 6px 6px grey;
+}
